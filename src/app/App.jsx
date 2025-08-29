@@ -1,5 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react'
 import NavbarLayout from '../layouts/NavbarLayout.jsx';
+import HeroComponent from '../components/HeroComponent.jsx';
 
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
    return (
       <div className="dark:bg-black relative">
          <NavbarLayout theme={theme} setTheme={setTheme}/>
+         <HeroComponent />
       </div>
 
    );
