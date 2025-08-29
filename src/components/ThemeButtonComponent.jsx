@@ -19,7 +19,7 @@ export default function ThemeButtonComponent({theme, setTheme}) {
 
    return (
       <Fragment>
-         <button className="mr-2">
+         <button className="mr-0.5">
             {theme === 'dark' ? (
                <img onClick={()=> setTheme('light')} src={assets.sun_icon} className='size-8.5 p-1.5 border border-gray-500 rounded-full' alt="Sun icon" />
             ) : (
