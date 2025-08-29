@@ -52,7 +52,7 @@
    font-weight: 500;
    box-sizing: border-box;
    text-decoration: none;
-   cursor: none;
+/*   cursor: none;*/
    outline: none;
    -webkit-user-select: none;
    -moz-user-select: none;

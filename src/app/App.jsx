@@ -1,10 +1,13 @@
+import React, {useEffect, useRef, useState} from 'react'
+import NavbarLayout from '../layouts/NavbarLayout.jsx';
+
+
 export default function App() {
+   const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light');
 
    return (
-      <div>
-         <h1 className="text-3xl text-center mt-8 font-bold underline">
-            Agency.AI
-         </h1>
+      <div className="dark:bg-black relative">
+         <NavbarLayout theme={theme} setTheme={setTheme}/>
       </div>
 
    );
