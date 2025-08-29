@@ -56,3 +56,4 @@ yarn.lock
 debug.log
 
 .eslintcache
+eslint.config.js
