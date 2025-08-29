@@ -2,7 +2,9 @@ export default function App() {
 
    return (
       <div>
-         <h2>App</h2>
+         <h1 className="text-3xl text-center mt-8 font-bold underline">
+            Agency.AI
+         </h1>
       </div>
 
    );
