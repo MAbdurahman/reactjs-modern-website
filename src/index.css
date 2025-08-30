@@ -88,6 +88,7 @@ body {
    max-width: 320px;
 }
 
+
 .move-in-from-right {
    animation-name: move-in-from-right;
    animation-duration: 1s;

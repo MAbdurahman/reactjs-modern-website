@@ -37,6 +37,12 @@ export default function ServicesComponent() {
          <img src={assets.bgImage2} alt="Background image" className='absolute -top-110 -left-70 -z-1 dark:hidden'/>
 
          <TitleComponent title={title} description={description} />
+
+         <div className="flex flex-col md:grid grid-cols-2">
+            {servicesData.map((service, index)=>(
+               <ServiceCardComponent key={index} service={service} index={index}/>
+            ))}
+         </div>
       </div>
 
    );
