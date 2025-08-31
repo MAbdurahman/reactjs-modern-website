@@ -16,10 +16,10 @@ export default function NavbarLayout({theme, setTheme}) {
 
             <img src={assets.close_icon} alt="Close icon" className='w-5 absolute right-4 top-4 sm:hidden' onClick={()=> setSidebarOpen(false)}/>
 
-            <a onClick={()=>setSidebarOpen(false)} href="#home" className="uppercase sm:hover:border-b">Home</a>
-            <a onClick={()=>setSidebarOpen(false)} href="#services" className="uppercase sm:hover:border-b">Services</a>
-            <a onClick={()=>setSidebarOpen(false)} href="#our-work" className="uppercase sm:hover:border-b">Our Work</a>
-            <a onClick={()=>setSidebarOpen(false)} href="#contact" className="uppercase sm:hover:border-b">Contact Us</a>
+            <a onClick={()=>setSidebarOpen(false)} href="#home" className="sm:hover:border-b">Home</a>
+            <a onClick={()=>setSidebarOpen(false)} href="#services" className="sm:hover:border-b">Services</a>
+            <a onClick={()=>setSidebarOpen(false)} href="#our-work" className="sm:hover:border-b">Our Work</a>
+            <a onClick={()=>setSidebarOpen(false)} href="#contact" className="sm:hover:border-b">Contact Us</a>
          </div>
 
          <div className='flex items-center gap-2 sm:gap-4'>
