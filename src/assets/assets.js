@@ -71,12 +71,12 @@ const assets = {
 export default assets
 
 export const teamData = [
-  { name: 'Haley Carter', title: 'CEO & founder', image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200' },
-  { name: 'James Walker', title: 'Ads manager', image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200' },
-  { name: 'Jessica Morgan', title: 'Vice president', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop' },
-  { name: 'Ashley Bennett', title: 'Marketing & sales', image: 'https://randomuser.me/api/portraits/women/10.jpg' },
-  { name: 'Emily Parker', title: 'Content marketer', image: 'https://randomuser.me/api/portraits/women/11.jpg' },
-  { name: 'Ryan Mitchell', title: 'Content writer', image: 'https://randomuser.me/api/portraits/men/9.jpg' },
-  { name: 'Megan Brooks', title: 'Performance manager', image: 'https://randomuser.me/api/portraits/women/12.jpg' },
-  { name: 'Amber Foster', title: 'Senior writer', image: 'https://randomuser.me/api/portraits/women/14.jpg' },
+  { name: 'Haley Carter', title: 'CEO & Founder', image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200' },
+  { name: 'James Walker', title: 'Advertising Manager', image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200' },
+  { name: 'Jessica Morgan', title: 'Vice President', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop' },
+  { name: 'Ashley Bennett', title: 'Marketing & Sales', image: 'https://randomuser.me/api/portraits/women/10.jpg' },
+  { name: 'Emily Parker', title: 'Content Marketer', image: 'https://randomuser.me/api/portraits/women/11.jpg' },
+  { name: 'Ryan Mitchell', title: 'Content Writer', image: 'https://randomuser.me/api/portraits/men/9.jpg' },
+  { name: 'Megan Brooks', title: 'Performance Manager', image: 'https://randomuser.me/api/portraits/women/12.jpg' },
+  { name: 'Amber Foster', title: 'Senior Writer', image: 'https://randomuser.me/api/portraits/women/14.jpg' },
 ]

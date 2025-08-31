@@ -4,6 +4,7 @@ import HeroComponent from '../components/HeroComponent.jsx';
 import TrustByComponent from '../components/TrustByComponent.jsx';
 import ServicesComponent from '../components/ServicesComponent.jsx';
 import OurWorkComponent from '../components/OurWorkComponent.jsx';
+import TeamComponent from '../components/TeamComponent.jsx';
 
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
          <TrustByComponent />
          <ServicesComponent />
          <OurWorkComponent />
+         <TeamComponent />
       </div>
 
    );
