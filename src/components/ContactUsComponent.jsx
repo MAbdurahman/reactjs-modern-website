@@ -53,7 +53,7 @@ export default function ContactUsComponent() {
                <p className='mb-2 text-sm font-medium'>Email</p>
                <div className='flex pl-3 rounded-lg border border-gray-300 dark:border-gray-600'>
                   <img src={assets.email_icon} alt="Envelop icon" />
-                  <input name='email' id='email' type="text" placeholder='Enter email' className='w-full p-3 text-sm outline-none' required />
+                  <input name='email' id='email' type="email" placeholder='Enter email' className='w-full p-3 text-sm outline-none' required />
                </div>
             </div>
 
@@ -62,7 +62,7 @@ export default function ContactUsComponent() {
                <textarea name='message' id='message' rows={8} placeholder='Enter message' className='w-full p-3 text-sm outline-none rounded-lg border border-gray-300 dark:border-gray-600' required />
             </div>
 
-            <button type='submit' className='w-max flex gap-2 bg-primary text-white text-sm px-10 py-3 rounded-full cursor-pointer hover:scale-103 transition-all' >
+            <button type='submit' className='w-max flex gap-2 bg-primary text-white text-sm px-10 py-3 rounded cursor-pointer hover:scale-103 transition-all' >
                Submit <img src={assets.arrow_icon} alt="Arrow icon" className='w-4'/>
             </button>
 

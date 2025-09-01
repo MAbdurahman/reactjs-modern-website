@@ -7,6 +7,7 @@ import ServicesComponent from '../components/ServicesComponent.jsx';
 import OurWorkComponent from '../components/OurWorkComponent.jsx';
 import TeamComponent from '../components/TeamComponent.jsx';
 import ContactUsComponent from '../components/ContactUsComponent.jsx';
+import FooterLayout from '../layouts/FooterLayout.jsx';
 
 
 export default function App() {
@@ -48,6 +49,7 @@ export default function App() {
          <OurWorkComponent />
          <TeamComponent />
          <ContactUsComponent />
+         <FooterLayout theme={theme} />
       </div>
 
    );

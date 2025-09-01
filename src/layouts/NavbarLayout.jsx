@@ -28,7 +28,7 @@ export default function NavbarLayout({theme, setTheme}) {
 
             <img src={theme === 'dark' ? assets.menu_icon_dark : assets.menu_icon} alt="Menu icon" onClick={()=> setSidebarOpen(true)} className='w-8 sm:hidden'/>
 
-            <a href="#contact" className='uppercase text-sm max-sm:hidden flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full cursor-pointer hover:scale-103 transition-all'>
+            <a href="#contact" className='uppercase text-sm max-sm:hidden flex items-center gap-2 bg-primary text-white px-6 py-2 rounded cursor-pointer hover:scale-103 transition-all'>
                Connect <img src={assets.arrow_icon} width={14} alt="Arrow icon" />
             </a>
          </div>
