@@ -62,7 +62,7 @@ export default function ContactUsComponent() {
                <textarea name='message' id='message' rows={8} placeholder='Enter message' className='w-full p-3 text-sm outline-none rounded-lg border border-gray-300 dark:border-gray-600' required />
             </div>
 
-            <button type='submit' className='w-max flex gap-2 bg-primary text-white text-sm px-10 py-3 rounded cursor-pointer hover:scale-103 transition-all' >
+            <button type='submit' className='uppercase w-max flex gap-2 bg-primary text-white text-sm px-10 py-3 rounded cursor-pointer hover:scale-103 transition-all' >
                Submit <img src={assets.arrow_icon} alt="Arrow icon" className='w-4'/>
             </button>
 
