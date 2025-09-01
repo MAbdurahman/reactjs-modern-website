@@ -1,12 +1,32 @@
-# React + Vite
+# reactjs-modern-website
+This is an application utilizing ReactJS, TailwindCSS, and Framer Motion to create an animated and modern looking static website. The contact form is functional. To add functionality, visit https://web3Form.com/platform/react-contact-form and acquire an api key. Place the api key in handleOnSubmit function in src/components/ContactUSComponent.jsx
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Start the app
+```shell
+npm install
+```
+or
+```shell
+yarn install
+```
+then
+```shell
+npm start
+```
+or
 
-Currently, two official plugins are available:
+```shell
+yarn start
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Build the app
+```shell
+npm run build
+```
+or
 
-## Expanding the ESLint configuration
+```shell
+yarn build
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Image](https://github.com/user-attachments/assets/f02cd33b-cc29-425b-8321-00b0555d2299)
