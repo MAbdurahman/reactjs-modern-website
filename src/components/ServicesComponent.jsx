@@ -32,7 +32,12 @@ export default function ServicesComponent() {
    const description = 'From strategy to execution, we craft digital solutions that move your business forward.';
 
    return (
-      <div id="services" className="relative flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white">
+      <motion.div
+         initial="hidden"
+         whileInView="visible"
+         viewport={{ once: true }}
+         transition={{ staggerChildren: 0.2 }}
+         id="services" className="relative flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white">
 
          <img src={assets.bgImage2} alt="Background image" className='absolute -top-110 -left-70 -z-1 dark:hidden'/>
 
@@ -43,7 +48,7 @@ export default function ServicesComponent() {
                <ServiceCardComponent key={index} service={service} index={index}/>
             ))}
          </div>
-      </div>
+      </motion.div>
 
    );
 }

@@ -3,8 +3,6 @@ import TitleComponent from './TitleComponent.jsx';
 import assets from '../assets/assets.js';
 import {motion} from 'motion/react';
 
-
-
 export default function OurWorkComponent() {
 
    const title = 'Our latest work';
@@ -28,7 +26,12 @@ export default function OurWorkComponent() {
    ]
 
    return (
-      <div id='our-work' className='flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'>
+      <motion.div
+         initial="hidden"
+         whileInView="visible"
+         viewport={{ once: true }}
+         transition={{ staggerChildren: 0.2 }}
+         id='our-work' className='flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'>
 
          <TitleComponent title={title} description={description} />
 
@@ -48,6 +51,6 @@ export default function OurWorkComponent() {
                ))
             }
          </div>
-      </div>
+      </motion.div>
    );
 }
