@@ -11,12 +11,12 @@ yarn install
 ```
 then
 ```shell
-npm start
+npm run dev
 ```
 or
 
 ```shell
-yarn start
+yarn dev
 ```
 
 ### Build the app
